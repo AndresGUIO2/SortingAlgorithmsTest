@@ -1,5 +1,44 @@
 # SortingAlgorithmsTest
 
+# Configuración de C++ en Code::Blocks para Windows
+
+Esta guía paso a paso muestra cómo configurar el entorno de desarrollo Code::Blocks para compilar y ejecutar programas C++ en Windows. Luego de este encontrarás uno para Visual Studio Code
+
+## Pasos para la Configuración
+
+### 1. Instalar Code::Blocks
+Descarga e instala Code::Blocks con el compilador de MinGW incluido desde el [sitio oficial de Code::Blocks](http://www.codeblocks.org/downloads/26).
+
+### 2. Crear un Proyecto Nuevo
+- Abre Code::Blocks y selecciona 'Create a new project'.
+- Elige 'Console application' y luego 'C++'.
+- Sigue las instrucciones para nombrar y guardar tu proyecto.
+
+### 3. Configurar el Proyecto
+- En el gestor de proyectos, haz clic derecho en tu proyecto y selecciona 'Build options'.
+- Asegúrate de que la opción 'Have g++ follow the C++11 ISO C++ language standard' esté seleccionada si tu código lo requiere.
+
+### 4. Importar Archivos `.cpp`
+- Con el proyecto abierto, puedes añadir tu archivo `main.cpp` utilizando 'File' -> 'Add files...' y seleccionando tu archivo.
+
+### 5. Compilar y Ejecutar
+- Haz clic en el ícono de 'Build' (martillo) para compilar tu proyecto.
+- Una vez compilado, puedes ejecutarlo haciendo clic en el ícono de 'Run' (triángulo verde).
+
+### 6. Depuración
+- Si necesitas depurar tu programa, puedes utilizar las herramientas de depuración integradas en Code::Blocks.
+- Establece puntos de interrupción y observa el flujo de ejecución y las variables.
+
+### 7. Solución de Problemas
+- Si encuentras errores, revisa tu código y las opciones de compilación.
+- Asegúrate de que todas las dependencias y librerías estén correctamente configuradas en las 'Build options'.
+
+## Soporte
+
+Si necesitas más asistencia, consulta la [documentación de Code::Blocks](http://www.codeblocks.org/docs/main_codeblocks_en.html) o participa en los [foros de la comunidad](http://forums.codeblocks.org/).
+
+
+
 # Configuración de C++ en Visual Studio Code para Windows
 
 Esta guía explica cómo configurar Visual Studio Code para compilar y ejecutar programas C++ en Windows, utilizando MinGW como compilador.
